@@ -1,0 +1,22 @@
+.navbar .navbar-brand {
+  color: blue;
+font-size: 36px;
+font-weight: bold;
+}
+.carousel-item .pictures {
+  height: 800px;
+  width: 100%;
+}
+
+.card {
+ 
+  text-align: center;
+}
+
+.container {
+  padding: 3em;
+  align-content: center;
+}
+.container .git {
+  background-color: black;
+}
