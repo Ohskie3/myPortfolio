@@ -7,10 +7,12 @@
 .carousel-item .pictures {
   height: 800px;
   width: 100%;
+  
 }
 
 .card {
   text-align: center;
+  
 }
 
 .container {
@@ -29,8 +31,9 @@
 }
 
 .mb-3 {
-  padding-left: 2em;
+  margin-left: 2em;
   max-width: 400px;
+  margin-right: 2em;
 }
 
 .mb-3 h1 {
@@ -56,6 +59,8 @@
   color: blue;
 }
 
+@media screen and (min-width: 786px) {
+  
 .container2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -99,4 +104,5 @@
   grid-row-start: 2;
   margin-top: 30px;
   margin-left: 30px;
+}
 }
