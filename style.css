@@ -4,22 +4,15 @@
   font-weight: bold;
 }
 
+/* index page (home page) */
+
 .carousel-item .pictures {
   height: 800px;
   width: 100%;
-  
 }
 
 .card {
   text-align: center;
-  
-}
-
-.container {
-  padding-top: 3em;
-  padding-left: 35%;
-  padding-bottom: 3em;
-  align-content: center;
 }
 
 .container .git {
@@ -30,6 +23,61 @@
   font-size: 42px;
 }
 
+.btn:hover {
+  background-color: white;
+  color: blue;
+}
+
+@media screen and (min-width: 786px) {
+
+  /* Portfolio Page */
+  .container {
+    padding-top: 3em;
+    padding-left: 35%;
+    padding-bottom: 3em;
+    align-content: center;
+  }
+  .container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .card1 {
+    grid-column-start: 1;
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+  .card2 {
+    grid-column-start: 2;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .card3 {
+    grid-column-start: 3;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .card4 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+  .card5 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .card6 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+}
+
+/* Contact Me page */
 .mb-3 {
   margin-left: 2em;
   max-width: 400px;
@@ -52,57 +100,4 @@
 
 .form-label3 {
   font-size: 22px;
-}
-
-.btn:hover {
-  background-color: white;
-  color: blue;
-}
-
-@media screen and (min-width: 786px) {
-  
-.container2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-}
-
-.card1 {
-  grid-column-start: 1;
-  margin-top: 30px;
-  margin-left: 60px;
-}
-
-.card2 {
-  grid-column-start: 2;
-  margin-top: 30px;
-  margin-left: 30px;
-}
-
-.card3 {
-  grid-column-start: 3;
-  margin-top: 30px;
-  margin-left: 30px;
-}
-
-.card4 {
-  grid-column-start: 1;
-  grid-row-start: 2;
-  margin-top: 30px;
-  margin-left: 60px;
-}
-
-.card5 {
-  grid-column-start: 2;
-  grid-row-start: 2;
-  margin-top: 30px;
-  margin-left: 30px;
-}
-
-.card6 {
-  grid-column-start: 3;
-  grid-row-start: 2;
-  margin-top: 30px;
-  margin-left: 30px;
-}
 }
