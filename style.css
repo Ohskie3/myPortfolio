@@ -104,7 +104,9 @@
     margin-bottom: 2.5em;
   }
 }
-
+.modal-body {
+  color: black;
+}
 /* Contact Me page */
 
 .mb-3 {
