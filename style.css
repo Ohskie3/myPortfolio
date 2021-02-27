@@ -143,3 +143,11 @@
 .container3 {
   padding-left: 2em;
 }
+
+#beeWellLink {
+  color: rgb(168, 4, 4);
+}
+
+#cardImg {
+ background-color: rgb(224, 224, 60);
+}
