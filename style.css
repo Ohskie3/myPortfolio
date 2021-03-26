@@ -104,9 +104,11 @@
     margin-bottom: 2.5em;
   }
 }
+
 .modal-body {
   color: black;
 }
+
 /* Contact Me page */
 
 .mb-3 {
@@ -148,6 +150,15 @@
   color: rgb(168, 4, 4);
 }
 
-#cardImg {
- background-color: rgb(224, 224, 60);
+#cardImg1 {
+  background-color: rgb(224, 224, 60);
+}
+
+#freeMarket {
+  color: black;
+}
+
+#freeMarketPic {
+  background-color: #1e88e5;
+  padding-bottom: 50px;
 }
